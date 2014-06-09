@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DD5197119461B1A0057CCD0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD5197019461B1A0057CCD0 /* main.swift */; };
+		3DD5197319461B1A0057CCD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD5197219461B1A0057CCD0 /* AppDelegate.swift */; };
+		3DD5197519461B1A0057CCD0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD5197419461B1A0057CCD0 /* Images.xcassets */; };
+		3DD5197819461B1A0057CCD0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD5197619461B1A0057CCD0 /* MainMenu.xib */; };
+		3DD5198419461B1A0057CCD0 /* Swift_FactorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD5198319461B1A0057CCD0 /* Swift_FactorialTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DD5197E19461B1A0057CCD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DD5196319461B1A0057CCD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DD5196A19461B1A0057CCD0;
+			remoteInfo = "Swift Factorial";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DD5196B19461B1A0057CCD0 /* Swift Factorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Factorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD5196F19461B1A0057CCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD5197019461B1A0057CCD0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3DD5197219461B1A0057CCD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DD5197419461B1A0057CCD0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DD5197719461B1A0057CCD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3DD5197D19461B1A0057CCD0 /* Swift FactorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift FactorialTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD5198219461B1A0057CCD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD5198319461B1A0057CCD0 /* Swift_FactorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_FactorialTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DD5196819461B1A0057CCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD5197A19461B1A0057CCD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DD5196219461B1A0057CCD0 = {
+			isa = PBXGroup;
+			children = (
+				3DD5196D19461B1A0057CCD0 /* Swift Factorial */,
+				3DD5198019461B1A0057CCD0 /* Swift FactorialTests */,
+				3DD5196C19461B1A0057CCD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DD5196C19461B1A0057CCD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DD5196B19461B1A0057CCD0 /* Swift Factorial.app */,
+				3DD5197D19461B1A0057CCD0 /* Swift FactorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DD5196D19461B1A0057CCD0 /* Swift Factorial */ = {
+			isa = PBXGroup;
+			children = (
+				3DD5197219461B1A0057CCD0 /* AppDelegate.swift */,
+				3DD5197419461B1A0057CCD0 /* Images.xcassets */,
+				3DD5197619461B1A0057CCD0 /* MainMenu.xib */,
+				3DD5196E19461B1A0057CCD0 /* Supporting Files */,
+			);
+			path = "Swift Factorial";
+			sourceTree = "<group>";
+		};
+		3DD5196E19461B1A0057CCD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DD5196F19461B1A0057CCD0 /* Info.plist */,
+				3DD5197019461B1A0057CCD0 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DD5198019461B1A0057CCD0 /* Swift FactorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DD5198319461B1A0057CCD0 /* Swift_FactorialTests.swift */,
+				3DD5198119461B1A0057CCD0 /* Supporting Files */,
+			);
+			path = "Swift FactorialTests";
+			sourceTree = "<group>";
+		};
+		3DD5198119461B1A0057CCD0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DD5198219461B1A0057CCD0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DD5196A19461B1A0057CCD0 /* Swift Factorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD5198719461B1A0057CCD0 /* Build configuration list for PBXNativeTarget "Swift Factorial" */;
+			buildPhases = (
+				3DD5196719461B1A0057CCD0 /* Sources */,
+				3DD5196819461B1A0057CCD0 /* Frameworks */,
+				3DD5196919461B1A0057CCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Factorial";
+			productName = "Swift Factorial";
+			productReference = 3DD5196B19461B1A0057CCD0 /* Swift Factorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DD5197C19461B1A0057CCD0 /* Swift FactorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DD5198A19461B1A0057CCD0 /* Build configuration list for PBXNativeTarget "Swift FactorialTests" */;
+			buildPhases = (
+				3DD5197919461B1A0057CCD0 /* Sources */,
+				3DD5197A19461B1A0057CCD0 /* Frameworks */,
+				3DD5197B19461B1A0057CCD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DD5197F19461B1A0057CCD0 /* PBXTargetDependency */,
+			);
+			name = "Swift FactorialTests";
+			productName = "Swift FactorialTests";
+			productReference = 3DD5197D19461B1A0057CCD0 /* Swift FactorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DD5196319461B1A0057CCD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Edenwaith;
+				TargetAttributes = {
+					3DD5196A19461B1A0057CCD0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					3DD5197C19461B1A0057CCD0 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 3DD5196A19461B1A0057CCD0;
+					};
+				};
+			};
+			buildConfigurationList = 3DD5196619461B1A0057CCD0 /* Build configuration list for PBXProject "Swift Factorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DD5196219461B1A0057CCD0;
+			productRefGroup = 3DD5196C19461B1A0057CCD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DD5196A19461B1A0057CCD0 /* Swift Factorial */,
+				3DD5197C19461B1A0057CCD0 /* Swift FactorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DD5196919461B1A0057CCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD5197519461B1A0057CCD0 /* Images.xcassets in Resources */,
+				3DD5197819461B1A0057CCD0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD5197B19461B1A0057CCD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DD5196719461B1A0057CCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD5197319461B1A0057CCD0 /* AppDelegate.swift in Sources */,
+				3DD5197119461B1A0057CCD0 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DD5197919461B1A0057CCD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DD5198419461B1A0057CCD0 /* Swift_FactorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DD5197F19461B1A0057CCD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DD5196A19461B1A0057CCD0 /* Swift Factorial */;
+			targetProxy = 3DD5197E19461B1A0057CCD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DD5197619461B1A0057CCD0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DD5197719461B1A0057CCD0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DD5198519461B1A0057CCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DD5198619461B1A0057CCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3DD5198819461B1A0057CCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift Factorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DD5198919461B1A0057CCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Swift Factorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DD5198B19461B1A0057CCD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swift Factorial.app/Contents/MacOS/Swift Factorial";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift FactorialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		3DD5198C19461B1A0057CCD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swift Factorial.app/Contents/MacOS/Swift Factorial";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift FactorialTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DD5196619461B1A0057CCD0 /* Build configuration list for PBXProject "Swift Factorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD5198519461B1A0057CCD0 /* Debug */,
+				3DD5198619461B1A0057CCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DD5198719461B1A0057CCD0 /* Build configuration list for PBXNativeTarget "Swift Factorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD5198819461B1A0057CCD0 /* Debug */,
+				3DD5198919461B1A0057CCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DD5198A19461B1A0057CCD0 /* Build configuration list for PBXNativeTarget "Swift FactorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DD5198B19461B1A0057CCD0 /* Debug */,
+				3DD5198C19461B1A0057CCD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DD5196319461B1A0057CCD0 /* Project object */;
+}
