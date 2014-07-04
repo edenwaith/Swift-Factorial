@@ -26,8 +26,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 	@IBAction func calculateButtonClicked(sender : AnyObject) {
 		var originalValue: Double = self.textField.doubleValue;
-		var newValue: Double = exp(lgamma(originalValue + 1));
-		self.textField.doubleValue = newValue;
+		var newValue: Double = 0
+		
+		if (fmod(originalValue, floor(originalValue)) == 0) { // integer
+			// rounding helps prevent precision errors
+			newValue = round(exp(lgamma(originalValue+1.0)))
+		} else {
+			newValue = exp(lgamma(originalValue + 1))
+			println(String(format: "%@%.2f", "a float number: ", newValue))
+		}
+		
+		self.textField.doubleValue = newValue
 	}
 
 }
